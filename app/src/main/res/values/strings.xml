@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cairo Tore Guide</string>
+    <string name="history">Historical Places</string>
+    <string name="street">Famous Streets</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="malls">Famous Malls</string>
+</resources>
