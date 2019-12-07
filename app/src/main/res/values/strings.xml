@@ -4,4 +4,25 @@
     <string name="street">Famous Streets</string>
     <string name="restaurant">Restaurant</string>
     <string name="malls">Famous Malls</string>
+    <string name="the_Blue_Restaurant">The Blue Restaurant</string>
+    <string name="cairo_egypt">Cairo, Egypt</string>
+    <string name="shogun_japanese_restaurant">Shogun Japanese restaurant</string>
+    <string name="sachi">Sachi</string>
+    <string name="raj">Raj</string>
+    <string name="lexies">LEXIE\'S</string>
+    <string name="mall_of_egypt">Mall of Egypt</string>
+    <string name="mall_of_arabia">Mall of Arabia</string>
+    <string name="downtown_mall">DownTown Mall</string>
+    <string name="city_stars_mall">City Stars Mall</string>
+    <string name="cairo_festival_city_mall">Cairo Festival City Mall</string>
+    <string name="cairo_tower">Cairo Tower</string>
+    <string name="prince_mohamed_ali_palace">Prince Mohamed Ali Palace</string>
+    <string name="khan_al_khalili">Khan Al Khalili</string>
+    <string name="queen_temple">Queen Hatshepsut Temple</string>
+    <string name="pyramid_giza">Pyramid\'s of Giza</string>
+    <string name="muizz_street">El Muizz Street</string>
+    <string name="tahrir_square">El Tahrir Square</string>
+    <string name="talaat_harb">Talaat Harb Street</string>
+    <string name="qusr_nile">Qusr El Nile Street</string>
+    <string name="saliba_street">Saliba Street</string>
 </resources>

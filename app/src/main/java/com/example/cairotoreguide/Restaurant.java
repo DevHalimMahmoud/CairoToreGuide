@@ -25,11 +25,11 @@ public class Restaurant extends Fragment {
 
         final ArrayList<Place> Places = new ArrayList<>();
 
-        Places.add(new Place("The Blue Restaurant", "Cairo, Egypt", R.drawable.the_blue_restaurant__grill));
-        Places.add(new Place("Shogun Japanese restaurant", "Cairo, Egypt", R.drawable.shogun_japanese_restaurant));
-        Places.add(new Place("Sachi", "Cairo, Egypt", R.drawable.sachi));
-        Places.add(new Place("Raj", "Cairo, Egypt", R.drawable.raj));
-        Places.add(new Place("LEXIE'S", "Cairo, Egypt", R.drawable.lexies));
+        Places.add(new Place(getString(R.string.the_Blue_Restaurant), getString(R.string.cairo_egypt), R.drawable.the_blue_restaurant__grill));
+        Places.add(new Place(getString(R.string.shogun_japanese_restaurant), getString(R.string.cairo_egypt), R.drawable.shogun_japanese_restaurant));
+        Places.add(new Place(getString(R.string.sachi), getString(R.string.cairo_egypt), R.drawable.sachi));
+        Places.add(new Place(getString(R.string.raj), getString(R.string.cairo_egypt), R.drawable.raj));
+        Places.add(new Place(getString(R.string.lexies), getString(R.string.cairo_egypt), R.drawable.lexies));
 
 
         ArrayAdapter adaptor = new PlaceAdaptor(getActivity(), Places);

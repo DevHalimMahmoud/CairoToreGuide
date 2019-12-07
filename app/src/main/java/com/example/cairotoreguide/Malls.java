@@ -25,11 +25,11 @@ public class Malls extends Fragment {
 
         final ArrayList<Place> Places = new ArrayList<>();
 
-        Places.add(new Place("Mall of Egypt", "Cairo, Egypt", R.drawable.mall_of_egypt));
-        Places.add(new Place("Mall of Arabia", "Cairo, Egypt", R.drawable.mall_of_arabia));
-        Places.add(new Place("DownTown Mall", "Cairo, Egypt", R.drawable.downtown_mall));
-        Places.add(new Place("City Stars Mall", "Cairo, Egypt", R.drawable.city_stars_mall));
-        Places.add(new Place("Cairo Festival City Mall", "Cairo, Egypt", R.drawable.cairo_festival_city_mall));
+        Places.add(new Place(getString(R.string.mall_of_egypt), getString(R.string.cairo_egypt), R.drawable.mall_of_egypt));
+        Places.add(new Place(getString(R.string.mall_of_arabia), getString(R.string.cairo_egypt), R.drawable.mall_of_arabia));
+        Places.add(new Place(getString(R.string.downtown_mall), getString(R.string.cairo_egypt), R.drawable.downtown_mall));
+        Places.add(new Place(getString(R.string.city_stars_mall), getString(R.string.cairo_egypt), R.drawable.city_stars_mall));
+        Places.add(new Place(getString(R.string.cairo_festival_city_mall), getString(R.string.cairo_egypt), R.drawable.cairo_festival_city_mall));
 
 
         ArrayAdapter adaptor = new PlaceAdaptor(getActivity(), Places);

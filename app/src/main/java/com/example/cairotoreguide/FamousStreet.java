@@ -25,11 +25,11 @@ public class FamousStreet extends Fragment {
 
         final ArrayList<Place> Places = new ArrayList<>();
 
-        Places.add(new Place("El Muizz Street", "Cairo, Egypt", R.drawable.muizz_street));
-        Places.add(new Place("El Tahrir Square", "Cairo, Egypt", R.drawable.tahrirsquare));
-        Places.add(new Place("Talaat Harb Street", "Cairo, Egypt", R.drawable.talaat_harb));
-        Places.add(new Place("Qusr El Nile Street", "Cairo, Egypt", R.drawable.qasr_el_nile_street));
-        Places.add(new Place("Saliba Streer", "Cairo, Egypt", R.drawable.saliba_street));
+        Places.add(new Place(getString(R.string.muizz_street), getString(R.string.cairo_egypt), R.drawable.muizz_street));
+        Places.add(new Place(getString(R.string.tahrir_square), getString(R.string.cairo_egypt), R.drawable.tahrirsquare));
+        Places.add(new Place(getString(R.string.talaat_harb), getString(R.string.cairo_egypt), R.drawable.talaat_harb));
+        Places.add(new Place(getString(R.string.qusr_nile), getString(R.string.cairo_egypt), R.drawable.qasr_el_nile_street));
+        Places.add(new Place(getString(R.string.saliba_street), getString(R.string.cairo_egypt), R.drawable.saliba_street));
 
 
         ArrayAdapter adaptor = new PlaceAdaptor(getActivity(), Places);

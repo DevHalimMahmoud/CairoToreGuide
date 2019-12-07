@@ -25,11 +25,11 @@ public class HistoricalPlaces extends Fragment {
 
         final ArrayList<Place> Places = new ArrayList<>();
 
-        Places.add(new Place("Cairo Tower", "Cairo, Egypt", R.drawable.cairo_tower));
-        Places.add(new Place("Prince Mohamed Ali Palace", "Cairo, Egypt", R.drawable.prince_mohamed_ali_palace));
-        Places.add(new Place("Khan Al Khalili", "Cairo, Egypt", R.drawable.khan_al_khalili_of_cairo));
-        Places.add(new Place("Queen Hatshepsut Temple", "Egypt", R.drawable.queen_hatshepsut_temple));
-        Places.add(new Place("Pyramid's of Giza", "Giza, Egypt", R.drawable.giza_pyramid));
+        Places.add(new Place(getString(R.string.cairo_tower), getString(R.string.cairo_egypt), R.drawable.cairo_tower));
+        Places.add(new Place(getString(R.string.prince_mohamed_ali_palace), getString(R.string.cairo_egypt), R.drawable.prince_mohamed_ali_palace));
+        Places.add(new Place(getString(R.string.khan_al_khalili), getString(R.string.cairo_egypt), R.drawable.khan_al_khalili_of_cairo));
+        Places.add(new Place(getString(R.string.queen_temple), getString(R.string.cairo_egypt), R.drawable.queen_hatshepsut_temple));
+        Places.add(new Place(getString(R.string.pyramid_giza), getString(R.string.cairo_egypt), R.drawable.giza_pyramid));
 
 
         ArrayAdapter adaptor = new PlaceAdaptor(getActivity(), Places);
