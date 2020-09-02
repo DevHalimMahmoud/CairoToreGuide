@@ -32,7 +32,7 @@ public class FamousStreet extends Fragment {
         Places.add(new Place(getString(R.string.saliba_street), getString(R.string.cairo_egypt), R.drawable.saliba_street));
 
 
-        ArrayAdapter adaptor = new PlaceAdaptor(getActivity(), Places);
+        ArrayAdapter<Place> adaptor = new PlaceAdaptor(getActivity(), Places);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
